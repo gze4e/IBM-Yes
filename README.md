@@ -50,6 +50,16 @@
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
 ```
 
+【安装脚本】: 
+一键安装脚本：wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
+
+一键安装脚本2:
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/siemenstutorials/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
+
+【注意:建议用脚本2进行安装脚本1的子项目删库了】
+
+
+
 ![image-20200615210944753](img/README/image-20200615210944753.png)
 
 在配置的时候需要输入应用名称（这里就是我创建应用的时候输入应用名称我输入的是ibmyes，你需要改成你自己的名称）和应用内存大小（我们刚刚选择的是256）
