@@ -34,7 +34,7 @@ EOF
                     "clients": [
                         {
                             "id": "${UUID}",
-                            "alterId": 4
+                            "alterId": 2
                         }
                     ]
                 },
@@ -60,7 +60,7 @@ EOF
 clone_repo(){
     echo "进行初始化。。。"
 	rm -rf IBMYes
-    git clone https://github.com/CCChieh/IBMYes
+    git clone https://github.com/gze4e/IBMYes
     cd IBMYes
     git submodule update --init --recursive
     cd v2ray-cloudfoundry/v2ray
@@ -108,7 +108,7 @@ install(){
       "add": "ibmyes.us-south.cf.appdomain.cloud",
       "port": "443",
       "id": "${UUID}",
-      "aid": "4",
+      "aid": "2",
       "net": "ws",
       "type": "none",
       "host": "",
